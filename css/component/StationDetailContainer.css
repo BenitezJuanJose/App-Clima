@@ -1,0 +1,112 @@
+@import url(../root.css);
+.StationDetailContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Station-container-temperature{
+    height: 300px;
+    width: 300px;
+    border-radius: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--principalColor);
+    box-shadow:  5px 5px 10px #bcbcbc,
+    -5px -5px 10px #ffffff;
+
+   
+
+    position: relative;
+    margin-top: 100px;
+    overflow: hidden;
+
+    /*
+    border-top: 7px solid rgba(0, 0, 255, 0.8);
+    border-right: 7px solid rgba(255, 255, 0, 0.8);
+    border-bottom: 7px solid rgba(255, 0, 0, 0.8);
+    border-left: 7px solid rgba(255, 255, 0, 0.8);
+    */
+    
+}
+/*
+.Station-container-temperature::before{
+    content:"12°C";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Poppins);
+   
+
+    background: var(--principalColor);
+    box-shadow:  5px 5px 10px #bcbcbc,
+    -5px -5px 10px #ffffff;
+    border-top: solid 4px #00f;
+    border-right: solid 4px #00f;
+    border-bottom:  solid 4px #ff0;
+    border-left:  solid 4px #ff0;
+    
+    z-index: 10;
+
+
+}
+.Station-container-temperature::after{
+    content:"25°C";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Poppins);
+   
+
+    background: var(--principalColor);
+    box-shadow:  5px 5px 10px #bcbcbc,
+    -5px -5px 10px #ffffff;
+
+    border-top: 4px solid #ff0;
+    border-right: 4px solid #ff0;
+    border-left: 4px solid #f00;
+    border-bottom: 4px solid #f00;
+
+
+}*/
+.Station-container-temperature h2{
+    z-index: 10;
+    text-shadow: 1px 1px 20px #fff;   
+}
+.Station-temperature-bg{
+    position: absolute;
+    top: -40%;
+    left: -40%; 
+
+    width: 120%;
+    height: 120%;
+
+    border-radius: 50%;
+
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}

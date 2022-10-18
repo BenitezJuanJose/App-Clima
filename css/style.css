@@ -1,0 +1,14 @@
+/*normalizacion de estilos*/
+@import url(normalize.css);
+/*contenedor principal de los componentes*/
+@import url(component/Root.css);
+/*contenedor de estaciones*/
+@import url(component/StationContainer.css);
+/*estaciones*/
+@import url(component/Station.css);
+/*detalles de estacion*/
+@import url(component/StationDetailContainer.css);
+/*detalles de */
+@import url(component/Station-container-detail.css);
+/*detalles de */
+@import url(component/StationDetail.css);

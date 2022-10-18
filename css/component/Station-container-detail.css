@@ -1,0 +1,11 @@
+.Station-container-detail{
+    margin: 20px;
+    width: 80%;
+    min-height: 300px;
+
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

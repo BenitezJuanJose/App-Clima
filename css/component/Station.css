@@ -1,0 +1,114 @@
+@import url(../root.css);
+.Station-btn{
+    color: var(--withe);
+}
+.Station:hover{
+    height: 225px;
+    width: 412px;
+}
+.Station{
+    height: 200px;
+    width: 400px;
+    
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--principalColor);
+    box-shadow:  5px 5px 10px #bcbcbc,
+    -5px -5px 10px #ffffff;
+}
+.Station-bg{
+    content: "";
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: -75px;
+    left: -75px;
+    border-radius: 50%;
+
+    background-color: var(--before);
+    backdrop-filter: blur(10px);
+    
+    
+    background-size: cover;    
+}
+.Station h2{
+    font-size: var(--cardTitle);
+    z-index: 10;
+}
+.Station .Station-location-data p,
+.Station .Station-extradata p{
+    font-size: var(--cardDescription);
+    margin-left: 10px;
+    z-index: 10;
+}
+
+.Station-location-data,
+.Station-extradata{
+    width: 90%;
+    margin-top: 15px;
+    display: flex;
+    z-index: 10;
+    
+}
+
+.Station-location-data{
+    justify-content: center;
+}
+
+
+.Station-extradata{
+    position: absolute;
+    bottom: 0px;
+    justify-content: space-between;
+}
+.Station-extradata div{
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.Station-climate .Station-icon-climate{
+    height: 40px;
+    width: 40px;
+
+    background-image: url(../../multimedia/icons/lluvia.gif);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.Station-climate .Station-icon-wind{
+    height: 40px;
+    width: 40px;
+
+    background-image: url(../../multimedia/icons/viento.gif);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+
+.Station-icon-view,
+.Station-icon-location{
+    height: 30px;
+    width: 30px;
+
+    
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Station-icon-location{
+    background-image: url(../../multimedia/img/marcador.png);
+}
+.Station-icon-view{
+    background-image: url(../../multimedia/img/ojo.png);
+}

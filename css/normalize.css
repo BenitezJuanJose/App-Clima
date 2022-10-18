@@ -1,0 +1,41 @@
+@import url(root.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+
+/*
+    Style of text
+*/
+h1{
+    font-size:var(--h1FontSize);
+    color: var(--withe);
+}
+h1,h2,h3,h4,h5{
+    font-family: var(--titleFontFamily);
+    font-weight: var(--titleFontWeight);
+}
+span{
+    color: var(--principalColor);
+}
+/*
+    Style of form, list and input
+*/
+p{
+    font-family: var(--textFontFamily);
+    font-weight: var(--textFontWeight);
+}
+ul,ol,li{
+    list-style: none;
+}
+input{
+    outline: none;
+    border: 1px solid #000;
+}
+a{
+    text-decoration: none;
+}

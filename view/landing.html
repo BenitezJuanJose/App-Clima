@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App-clima</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <template id="tpl_Station">
+        <a href="" class="Station-btn">
+            <div class="Station">
+                <div class="Station-bg"></div>
+                <h2 class="Station-title">title</h2>
+                <div class="Station-location-data">
+                    <div class="Station-icon-location"></div>
+                    <p class="Station-location">location</p>
+                </div>
+                <div class="Station-extradata">
+                    <div class="Station-climate">
+                        <div class="Station-icon-climate"></div>
+                        <div class="Station-icon-wind"></div>
+                    </div>
+
+                    <div class="views">
+                        <div class="Station-icon-view"></div>
+                        <p class="Station-view">1</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </template>
+
+    <div id="Root">
+        <h1>Estaciones</h1>
+        <div id="StationContainer"></div>
+    </div>  
+    <script src="js/loadStation.js" type="text/javascript"></script>    
+</body>
+</html>
